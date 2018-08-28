@@ -1,0 +1,45 @@
+
+.st-row {
+  color: grey;
+  display: flex;
+  justify-content: space-around;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#title {
+  font-size: 15px;
+}
+
+
+/* this is for the first part */
+.st-rightrow {
+  font-size: 8px;
+}
+/* <src="../home-work-mockups/week1/assets/hero.jpg"> */
+.red { 
+  color: red; 
+  font-size: 14px;
+}
+.headwords {
+  background-image: url("../home-work-mockups/week1/assets/hero.jpg");
+  background-size: cover;
+  height: 500px;
+  background-position: center;
+  text-align: center;
+  display: flex;
+}
+
+.partone-words{
+  margin: auto;
+  top: 50%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.white{
+  font-size: 10px;
+}
+  
+.downloadnow {
+  border: 10px white;
+}
