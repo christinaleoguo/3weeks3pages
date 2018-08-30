@@ -1,45 +1,138 @@
+/* set the margin and padding to be 0
+  in case there is blank gap around the page */
+* {
+  margin: 0;
+  padding: 0;
+}
 
-.st-row {
+
+
+
+/* for the first row */
+.first-row {
   color: grey;
   display: flex;
   justify-content: space-around;
   font-family: Arial, Helvetica, sans-serif;
+  margin: 15px 0;
 }
 
 #title {
-  font-size: 15px;
+  font-size: 20px;
 }
 
 
-/* this is for the first part */
-.st-rightrow {
-  font-size: 8px;
+/* for the links on the right of the first row */
+.first-right-row a {
+  font-size: 10px;
+  margin: 0 10px;
 }
-/* <src="../home-work-mockups/week1/assets/hero.jpg"> */
-.red { 
-  color: red; 
-  font-size: 14px;
-}
+
+
+
+
+/* for the first part */
 .headwords {
   background-image: url("../home-work-mockups/week1/assets/hero.jpg");
   background-size: cover;
-  height: 500px;
   background-position: center;
+  height: 500px;
   text-align: center;
   display: flex;
 }
 
-.partone-words{
+.part-one-words{
   margin: auto;
   top: 50%;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
+}
 
+.note-one {
+  font-size: 12px;
+  padding: 20px;
 }
-.white{
+
+
+
+/* for the two buttons */
+
+/* this is the common css for both of the buttons */
+.main-bt {
+  padding: 15px 50px;
+  /*width: 600px;*/
+  /* width property does not work on spans */
   font-size: 10px;
+  color: white;
 }
-  
-.downloadnow {
-  border: 10px white;
+
+/* extra css for download now button */
+.download-now {
+  border: 2px solid white;
 }
+
+/* extra css for read more button */
+.read-more {
+  background-color: #7462F5;
+  border: 2px solid #7462F5;
+}
+
+
+
+
+/* for the second part */
+
+/* the common css for second part and third part */
+.second-part, .third-part {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 100px 10%;
+  font-family: Arial;
+  line-height: 1.8;
+}
+
+.second-part img, .third-part img {
+  height: 350px;
+  width: 500px;
+}
+
+
+
+.second-right {
+  width: 300px;
+}
+
+/* for the paragraph part of the second part and third part */
+.second-right p, .third-part p {
+  font-size: 13px;
+  padding: 20px 0;
+}
+
+
+.third-part {
+  background-color: #F5F5F5;
+  margin: 0;
+  padding: 100px;
+}
+
+
+
+/* for the footer part */
+
+.footer-part {
+  padding: 40px 10%;
+  background-color: #0E1015;
+  color: white;
+  font-family: Arial;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-part img {
+  width: 200px;
+  height: 65px;
+}
+
