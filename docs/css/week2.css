@@ -270,6 +270,110 @@
 
 }
 
+/* for large size screens */
+
+@media only screen and (min-width: 768px) {
+  .nav-bar {
+    display: none;
+  }
+
+  .med-nav img {
+    height: 80px;
+  }
+
+  .med-nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .med-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .food-sense {
+    position: relative;
+  }
+
+
+  .sense-note-one, .sense-note-two {
+    font-family: Palatino;
+    padding: 15px;
+  }
+
+  .sense-note-one {
+    position: absolute;
+    bottom: 120px;
+    font-size: 25px;
+    background-color: #FFFFFF;
+    width: 200px;
+  }
+
+  .sense-note-two {
+    position: absolute;
+    bottom: 70px;
+    font-size: 20px;
+    width: 500px;
+  }
+
+  .sense-note-three {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 10px;
+    background-color: #E5E5E4;
+    border-radius: 5px;
+    width: 105px;
+  }
+
+  .menu-bar {
+    display: flex;
+  }
+  
+  .menu-bar div {
+    width: 25%;
+    color: #34AC98;
+    background-color: #EFF8F7;
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+    border-right: 1px solid #D9EFEC;
+  }
+
+
+
+  .the-blogs, .subscribe, .footer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .subscribe, .footer {
+    align-items: center;
+  }
+
+  .the-blogs {
+    align-items: flex-start;
+  }
+
+  .sub-intro {
+    width: 60%;
+  }
+
+  .sub-email {
+    height: 30px;
+    width: 40%;
+  }
+
+  .sub-email input {
+    width: 60%;
+  }
+
+  .sub-email button {
+    width: 30%;
+  }
+
+}
 
 
 
